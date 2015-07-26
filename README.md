@@ -7,4 +7,3 @@ Quelques exemples de code SQL
 - Utilisation d'index
 - Utilisation des clés primaires
 - Utilisation des foreign key
-- 
