@@ -1,8 +1,10 @@
 # SQL-Exemples
 Quelques exemples de code SQL
 
-** Commandes utilisées
+## Fonctions utilisées
 - Création de base
-- Création de table
+- Création de tables
+- Utilisation d'index
 - Utilisation des clés primaires
 - Utilisation des foreign key
+- 
