@@ -1,5 +1,6 @@
+/* Méthode 1 :  Les index et le Foreign KEY sont créés dans les requêtes Create */
 -- --------------------------------------
--- CREATION DE LA BASE blog - Méthode 1
+-- CREATION DE LA BASE blog
 -- --------------------------------------
 CREATE DATABASE blog_cm CHARACTER SET 'utf8';
 USE blog;
