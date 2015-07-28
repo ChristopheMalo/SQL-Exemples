@@ -55,6 +55,8 @@ CREATE TABLE Categorie_article (
     categorie_id INT UNSIGNED,
     article_id INT UNSIGNED,
     PRIMARY KEY (categorie_id, article_id),
+    INDEX fk_categorieID_id (categorie_id), /* Obligatoire pour créer les 2 FOREIGN KEY avec phpmyadmin */
+    INDEX fk_articleID_id (article_id), /* Obligatoire pour créer les 2 FOREIGN KEY avec phpmyadmin */
     CONSTRAINT fk_categorieID_id FOREIGN KEY (categorie_id) REFERENCES Categorie(id),
     CONSTRAINT fk_articleID_id FOREIGN KEY (article_id) REFERENCES Article(id)
 )
