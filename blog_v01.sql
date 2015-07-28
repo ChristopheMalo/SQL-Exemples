@@ -2,7 +2,7 @@
 -- --------------------------------------
 -- CREATION DE LA BASE blog
 -- --------------------------------------
-CREATE DATABASE blog_cm CHARACTER SET 'utf8';
+CREATE DATABASE blog CHARACTER SET 'utf8';
 USE blog;
 
 -- --------------------------------------
