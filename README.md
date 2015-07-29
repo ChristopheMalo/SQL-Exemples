@@ -10,3 +10,4 @@ Quelques exemples de code SQL
 
 ## Détail des méthodes
 - blog_v01.sql : Méthode 1 - Les index et le Foreign KEY sont créés dans les requêtes Create
+- blog_select.sql : les requêtes SELECT
